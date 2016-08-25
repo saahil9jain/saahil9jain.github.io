@@ -4,10 +4,46 @@ body {
 	background-size: cover;
 }
 
+a {
+	text-decoration: none;
+	color: #222222;
+}
+
 p {
 	color: #222222;
 	text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111111;
+    color: white;
+}
+
+.link:hover {
+	background-color: #111111;
+    color: white;
+}
+.nav {
+	font-size: 18px;
+}
+
 .name {
 	font-size: 45px;
 }
@@ -24,4 +60,11 @@ p {
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
+}
+
+.about {
+	text-align: left;
+	padding-left: 50px;
+	line-height: 40.15px;
+	font-size: 25px;
 }

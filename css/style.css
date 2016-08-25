@@ -1,23 +1,28 @@
 body {
-	font-family: Montserrat
+	font-family: 'Roboto', sans-serif;
+	background-color: #E0FFFF;
+	background-size: cover;
 }
 
 p {
 	color: #222222;
-	font-size: 25px;
-	font-weight: 700;
 	text-align: center;
 }
 
 .name {
-	text-align: center;
 	font-size: 45px;
 }
 
 .saahil_image {
-	text-align: center;
+	margin-top: -20px;
 }
 
-.links {
-	font-size: 20px;
+.description {
+	font-size: 25px;
+}
+
+.logo {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
 }

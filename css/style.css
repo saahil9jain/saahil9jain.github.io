@@ -1,0 +1,23 @@
+body {
+	font-family: Montserrat
+}
+
+p {
+	color: #222222;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.name {
+	text-align: center;
+	font-size: 45px;
+}
+
+.saahil_image {
+	text-align: center;
+}
+
+.links {
+	font-size: 20px;
+}

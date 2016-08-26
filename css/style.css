@@ -1,7 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #E0FFFF;
-	background-size: cover;
+	background-color: #F5F5F5;
 }
 
 a {
@@ -37,29 +36,46 @@ li a:hover {
 }
 
 .link:hover {
-	background-color: #111111;
-    color: white;
+    color: grey;
 }
 .nav {
 	font-size: 18px;
 }
 
 .name {
-	font-size: 45px;
+	font-size: 90px;
+	line-height: 10rem;
+	font-weight: 100;
+	margin: 0;
+	color: #222222;
+	text-align: center;
 }
 
 .saahil_image {
 	margin-top: -20px;
+	margin-bottom: -25px;
 }
 
 .description {
-	font-size: 25px;
+	font-size: 40px;
+	margin-bottom: -10px;
+	color: #222222;
 }
 
-.logo {
+.divider {
+	font-size: 20px;
+}
+
+.social {
+	font-size: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
+	color: #222222;
+}
+
+.social:hover {
+    color: grey;
 }
 
 .about {
